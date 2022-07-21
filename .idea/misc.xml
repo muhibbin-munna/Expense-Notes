@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable-hdpi/ic_share_black_24dp.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable-v24/btn_rounded_white.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/box_bg.xml" value="0.16" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/btn_rounded_red.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/custom_progress_bar.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/dialog_background_inset.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/dialog_bg.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.159" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.159" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_delete_white_24dp.xml" value="0.159" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_icon_list.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_premium_icon.xml" value="0.159" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_setting_icon.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_trash_icon.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ic_vector.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ln_icon.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/drawable/ln_icon2.xml" value="0.168" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_contact_list.xml" value="0.15" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_details_list.xml" value="0.22" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_log_in.xml" value="0.22" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_note_list.xml" value="0.18" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_shared_note_list.xml" value="0.19067028985507245" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_student_list.xml" value="0.18" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/activity_verify_phone.xml" value="0.2" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/button_bg.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/content_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_details_create_dialog.xml" value="0.2" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_details_create_speech_dialog.xml" value="0.25" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_details_update_dialog.xml" value="0.18115942028985507" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_note_create_dialog.xml" value="0.25" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_note_update_dialog.xml" value="0.22" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/fragment_student_create_dialog.xml" value="0.25" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/item_contact.xml" value="0.25" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/item_detail.xml" value="0.18" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/item_note.xml" value="0.25" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/list_icon.xml" value="0.17074275362318841" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/nav_drawer_header_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/note_info.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/layout/speech_dialog.xml" value="0.22" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/menu/details_menu.xml" value="0.2" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/menu/main_menu.xml" value="0.2" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/menu/nav_drawer_menu.xml" value="0.2" />
+        <entry key="..\:/Files/Outside/Android/NotesExpense/app/src/main/res/menu/setting_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

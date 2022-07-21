@@ -1,0 +1,92 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F5F4"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/subjectNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F4F5F4"
+                android:hint="Item Name"
+                android:inputType="textPersonName"
+                android:paddingStart="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/cancelButton"
+                app:layout_constraintEnd_toStartOf="@+id/subjectCreditEditText"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/subjectCreditEditText"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="#F4F5F4"
+                android:hint="Price"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/createButton"
+
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toEndOf="@+id/cancelButton"
+                app:layout_constraintTop_toBottomOf="@+id/subjectCreditEditText"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:text="@string/cancel_button"
+                android:layout_marginEnd="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/createButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subjectNameEditText" />
+
+            <Button
+                android:id="@+id/createButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:text="@string/create_button"
+                android:layout_marginStart="2dp"
+                android:textColor="#6A69F9"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cancelButton"
+                app:layout_constraintTop_toBottomOf="@+id/subjectCreditEditText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

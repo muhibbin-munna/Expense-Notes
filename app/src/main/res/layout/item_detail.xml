@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="5dp"
+    android:backgroundTint="#F4F5F4">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F4F5F4"
+        android:gravity="center"
+        android:weightSum="6">
+
+        <CheckBox
+            android:id="@+id/subjectNameCheckBox"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:buttonTint="#6A68F8"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/subjectNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:text="Hotel Rent"
+            android:textSize="18sp"
+            android:layout_weight="3.3"
+            android:gravity="center_vertical"
+            android:textColor="@color/grey_90"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:id="@+id/priceLL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="#D9D9D9"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            >
+            <TextView
+                android:id="@+id/subjectCreditTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text=" ৳ "
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/subjectCreditTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="101"
+                android:textColor="@color/grey_90"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

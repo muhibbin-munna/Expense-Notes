@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/white"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ThemeToolbar"
+            app:elevation="0dp"
+            app:title="Contact List"
+            app:titleTextColor="@color/grey_90" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.l4digital.fastscroll.FastScrollRecyclerView
+        android:id="@+id/fast_scroller_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bubbleColor="#5A5A5A"
+        app:bubbleTextColor="#ffffff"
+        app:handleColor="#999999"
+        android:layout_below="@+id/appbar"
+        android:layout_above="@+id/search" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/search_contact" />
+
+    <LinearLayout
+        android:id="@+id/emptyListTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:alpha=".6"
+            app:srcCompat="@drawable/contact_book" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No contacts" />
+    </LinearLayout>
+
+
+</RelativeLayout>

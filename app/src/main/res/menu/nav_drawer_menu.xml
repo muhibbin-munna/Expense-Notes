@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic__user"
+            android:title="Log In" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_icon_list"
+            android:title="My Lists" />
+        <item
+            android:id="@+id/nav_shared_list"
+            android:visible="false"
+            android:icon="@drawable/ic_icon_list"
+            android:title="Shared Lists" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_trash_icon"
+            android:title="Trash" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting_icon"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_remove_ads"
+            android:icon="@drawable/ic_premium_icon"
+            android:title="Remove ads" />
+    </group>
+
+
+</menu>

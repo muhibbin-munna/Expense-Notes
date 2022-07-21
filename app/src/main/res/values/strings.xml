@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Expense Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_subject">CreateDetailsActivity</string>
+    <string name="registration_no">Registration No</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="cross_image_content_description">Delete note from SQLite database</string>
+    <string name="empty_list_message">List is Empty!</string>
+    <string name="note_name">Note Name</string>
+    <string name="update">Update</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="create_button">Create</string>
+    <string name="all_delete">All Delete</string>
+    <string name="edit_button_description">Edit Single note information</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="subject_code">Subject Code</string>
+    <string name="subject_credit">Subject Credit</string>
+    <!--    <string name="add_new_subject">Add New Subject</string>-->
+    <string name="note_information">Note Information</string>
+    <string name="name">Name</string>
+    <string name="registration_no_with_color">Registration Number: </string>
+    <string name="item_list">Item List</string>
+    <string name="note_list">Note List</string>
+    <string name="database_summary">Total Note: %1$d. Total Subject: %2$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_button">Update</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="speak_text">Say the item name</string>
+    <string name="search_contact">Search Name / Phone Number</string>
+</resources>
